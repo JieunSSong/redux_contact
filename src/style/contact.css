@@ -1,0 +1,72 @@
+.App { 
+  width: 1000px;
+  margin: auto;
+}
+.title{
+  font-size: 2.5rem;
+  text-align: center;
+}
+.contact {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.contactForm {
+  padding: 1rem;
+  text-align: left;
+}
+.contactForm label,
+.contactForm input {
+  display: block;
+  padding: 0.5rem 0;
+}
+.contactForm input {
+  width: 80%;
+}
+.contactForm button {
+  margin-top: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 3rem;
+  background-color: black;
+  color: white;
+}
+.contactList {
+  padding: 1rem;
+  text-align: left;
+}
+.contactList p {
+  margin-bottom: 1rem;
+}
+.contactList .searchBox {
+  display: flex;
+  margin-bottom: 1rem;
+}
+#search {
+  display: block;
+  width: 70%;
+  padding: 1.2rem 0;
+}
+.contactList button {
+  padding: 0 1rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0.5rem 0;
+}
+.contactItem img {
+  width: 50px;
+  height: 50px;
+}
+.contactItem .contactItemData p {
+  margin: 0;
+}
